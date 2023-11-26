@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+}
+.flex-container{
+    /* background-color: red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.con1{
+    flex: 1 1 25%;
+    background-color: aqua;
+}
+.con2{
+    flex: 1 1 75%;
+    /* background-color: aquamarine; */
+    display: flex;
+    gap: 10px;
+    
+}
+.con2-1{
+     flex: 1 1 25%;
+     background-color: blue;
+}
+.con2-2{
+    flex: 1 1 50%;
+    background-color: black;
+}
+.con3{
+    flex: 1 1 25%;
+    background-color: olivedrab;
+}
